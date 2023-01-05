@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- the language should be specified in the html opening tag -->
+<html>
+  <!-- specifies the character encoding (unicode transformation format) should be 
+     enough for everything -->
+     <meta charset="UTF-8"
+  <!-- lets the search engine what the document is about -->
+     <meta name="keywords" content="Practicing some html tags" >
+  <!-- provides the author name -->
+     <meta name="author" content="Gonzalo F."
+</html>
+<body>
+<!-- embeding an image -->
+<img src="" alter=""
+</body>
+   
