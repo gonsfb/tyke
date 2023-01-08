@@ -1,0 +1,35 @@
+<!Doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="Video and Audio.">
+  </head>
+  <body>
+    information found on the comments can be found at 
+    <a src="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license#documentation" title="link to mdn web page"> 
+      MDN web page </a>, 
+      it is such a great documentation with examples to practice, thanks for allowing to quote under <a src="https://creativecommons.org/licenses/by-sa/2.5/" 
+      title="License type"> this type of license </a>
+      
+    <video src="here it goes the path to the desire content" <!--src attribuet works the same as for images, provides a path to the video -->
+           controls <!--controls supply the video with the web browser default controls to manage the playback --> >
+      <p>  <!-- paragraphs inside the video element are called fallback content which wil be displayed if the web browser doesnt support
+         the video element-->
+         <a href="link to the video> link to the video, click here .</a>
+      </p>
+    </video>
+     <!-- For Displaying Video Text Tracks, WebVTT files and HTML <track> tag are used to provide people with a transcript of the spoken words -->
+     <video 
+       controls
+       poster="poster.png" <!-- provides a picture before the video starts playing -->
+       <source="path to the video" type="type of file" />
+       <source="path to the video" type="type of file" />
+       <track 
+         kind="either subtitles, captions or descriptions"
+         src="path to the file" 
+         srclang="es" <!-- Tells the browser what language is being used -->
+         label="spanish" <!-- To help users identify the language they are looking for -->
+        >
+      </video>
+  </body>
+</html>
