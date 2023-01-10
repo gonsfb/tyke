@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- all the information included as comments can be found at mdn web docs, such a great webpage to learn -->
+  <html lang="en-us"> <!-- language to be used should be specified in the html opening tag -->
+  <head>  <!-- head tag works as a container for meta data (meta data is information about data and is not displayed on the web page --> 
+    <meta charset="UTF-8"> <!-- specifies the character encoding (UTF-8 stands for unicode transformation format, this encoding should be 
+     enough for everything as it includes most of the character that can be used) -->
+    <meta name="keywords" content="Practicing some html tags" > <!-- lets the search engine know what the document is about -->
+     <meta name="author" content="Gonzalo F.">  <!-- provides the author's name -->
+  </head>
+  <body>
+  <!-- embeding an image -->
+    <figure>
+      <img 
+        src="../catedral.jpeg" <!-- here goes the path to the file --> 
+        alter="A lovely sunset in a lovely city in México, lovely cathedral on the background as well" <!-- use of alt is very important for
+        screen readears -->
+        heigth="500px"
+        width="400px" <!-- Although we shouldn't alter our image size with html attributes, here we have  heigth and width attributes to practice -->
+        title="Main cathedral in Puebla, finished on 1700's." />   <!--Use of title for images is not recommended(unpredictable screen reader support),
+        always better to include such supporting information in the main article text rather than attached to the image -->
+      <figcaption> 
+        Iconic mexican cathedral, built from 1500 to 1700
+      </figcaption>
+    </figure>
+  </body>
+</html>
+   
