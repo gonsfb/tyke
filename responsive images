@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang=""en-us>
+<html lang=""en-US>
 <head>
   <meta charset="UTF-8">
   <meta name="Keywords" content="Responsive images">
@@ -7,7 +7,21 @@
   <meta name="viewport" content="width=device-width"
 </head>
 <body>
-  <h1> Responsive images </h1>
+  <h1> Responsive images using picture tag </h1>
+  <picture> <!-- acts like a wrapper -->
+    <source media="(max-width:799px)" <!-- here it goes the width we want --> " src="path-to-the-file-if-the-condition-is-true" />
+    <soruce media="(min-with:800px)" src="path-to-the-file-if-this-media-condition-is-true"
+    <img src="default-path-we-want" alt="accurate image description"/>
+  </picture>
   
+  <h2> Why can't we do this using CSS? </h2>
+  <p>
+  Whenever a web browser starts to load a page, it starts by preloading any images before the main parser
+  has started to load and interpret CSS and JavaScript pages. Although this mechanism is useful for reducing loading 
+  web pages time, doesnt come in handy when talking about responsive design, hence the need to implement solutions like srcset.
+  For example, we couldnt load the <img> element, then detect the viewport width with JavaScript, and then dinamically change the 
+  image source to a smaller one if desired. By then, the original image would already have been loaded and you would load the 
+  small image as well , which is even worse in responsive images terms.
+  </p>
 </body>
 </html>
