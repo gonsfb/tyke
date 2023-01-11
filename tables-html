@@ -5,27 +5,52 @@
     <meta name="viewport" content="width=device-width">
     <title>Table template</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
+    <style>
+        tbody {. <!-- <tbody> tag allows to style all of it easily -->
+            font-size: 95%;
+            color:brown;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        tfoot{ <!-- Same as <tbody>, <tfoot> allows styling it with ease -->
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:black
+        }
+        #cap{
+            font-size: larger;
+            padding: 20px;
+        }
+        #head{
+            text-align: center;
+        }
+    </style>
   </head>
   <body>
-    <h1>Table template</h1>
+    <h1 id="head">Table template</h1>
     <table>
-        <tr>
-          <th></th>
+        <caption id="cap"> <!-- Captions must be just after table opening tag -->
+            Average wage and cost of life in a few countries
+        </caption>
+    <thead> <!-- theas must wrap all of our headings -->
+        <tr> <!--stands for table row, EVERY TR TAG IS A NEW ROW, otherwise the cells make another column -->
+          <th></th> <!-- stands for table heading -->
           <th>Country</th>
           <th>Population</th>
           <th>Minum wage</th>
           <th>Average working hours</th>
           <th>Life cost</th>
         </tr>
+    </thead>
+    <tbody> <!-- tbody tag has to wrap every body element -->
         <tr>
-          <th rowspan="2">America</th>
-          <td>México</td>
+          <th rowspan="2">America</th> <!-- rowspan let us make one cell span the num of rows we specify(same with colspan) -->
+          <td>México</td> <!-- td stans for table date -->
           <td>126.7  M</td>
           <td>10.6 USD</td>
           <td>2128 hrs per year</td>
           <td>970 USD</td>
         </tr>
-        <tr>
+
+        <tr> 
           <td>Estados unidos de America </td>
           <td>331.9 M</td>
           <td> 58 USD</td>
@@ -41,7 +66,16 @@
           <td> 40 hrs per week</td>
           <td>1700 USD</td>
         </tr>
+    </tbody>
+    <tfoot>
+       <tr>
+         <td colspan="6">
+            2023
+         </td>
+       </tr>
+    </tfoot>
         
     </table>
+    <h2>Adding structure  with &<thead>; &<tfoot>; and &<tbody>;</h2>
   </body>
-</html>
+ </html>
