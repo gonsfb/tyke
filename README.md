@@ -1,2 +1,2 @@
 # tyke
-just little practice 
+Coding practice provided by MDN while doing their Front-End Developer Course
