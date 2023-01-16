@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="viewport" content="widht=device-width">
+  <meta name="Keywords" content="Fundamental text and font styling"
+  <style>
+  </style>
+</head>
+<body>
+  <h1> If you need a resource to help you decide what web safe font to use <a href="https://www.cssfontstack.com/"> click here. </a>
+  <h2>Font weight</h2>
+  <h2>Family and style</h2>
+    <p>To set a different font for your text, we use the <strong> font-family </strong> property.</p>
+    <table>
+      <caption>
+        Generic names CSS defines for fonts
+      </caption>
+      <thead>
+        <tr>
+          <th> Term </th>
+          <th> Definition </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> Serif </td>
+          <td> Serifs are the flourishes and other small details. </td>
+        </tr>
+        <tr>
+          <td> Sans-serif </td>
+          <td> Fonts that don't have serifs. </td>
+        </tr>
+        <tr>
+          <td> monospace </td>
+          <td> Fonts where every character has the same width, typically used in code listings.</td>
+        </tr>
+        <tr>
+          <td> Cursive </td>
+          <td> Fonts that try to emulate handwriting.</td>
+         </tr>
+         <tr>
+           <td> Fantasy </td>
+           <td> Fonts that are intended to be decorative </td>
+         </tr>
+       </tbody>
+     </table>
+     
+    <h3>Web safe fonts</h3>
+      <table>
+        <caption>
+          This fonts can be found in most operating systems 
+        </captions
+        <thead>
+          <tr>
+            <th> Name </th>
+            <th> Generic Type</th>
+            <th> Notes </th>
+          <tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td> Arial </td>
+            <td> sans-serif </td>
+            <td> is a best practice to add Helvetica as a preferred alternative to arial,
+                 although almost identica, helvetica has a slight better shape </td>
+          <tr>
+          <tr>
+            <td> Courier </td>
+            <td> monospace </td>
+            <td> As there is an older Courier, we should always include courier and courier new as options </td>
+          </tr>
+          <tr>
+            <td> Georgia </td>
+            <td>  serif </td>
+            <td> </td>
+          <tr>
+          <tr>
+            <td> Times New Roman </td>
+            <td> serif </td>
+            <td> As there is and older Times, we should always include Times and Times New Roman </td>
+          </tr>
+          <tr>
+            <td>Trebuchet Mx </td>
+            <td>sans-serif</td>
+            <td> We must be careful with its use as not many operating systems suport it</td>
+          <tr>
+            <td> verdana </td>
+            <td> sans-serif </td>
+            <td> </td>
+          <tr>
+        </tbody>
+      </table>
+        
+  <h2>Font Shorthand</h2>
+  <h2>Text alignment</h2>
+  <h2>Line and letter spacing</h2>
+  
+  
+</body>
+</html>
