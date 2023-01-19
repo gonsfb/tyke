@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+  </style>
+  <!-- or the respective link to external CSS (<link rel="stylesheet" href="path-to-the-file"> -->
+</head>
+<body>
+<table>
+  <caption>
+    This table aims to help undertand how css rules hierarchy is
+  </caption>
+  <thead>
+    <tr>
+      <th> Cascading </th>
+      <th> Specificity </th>
+    <tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> order of rules matter </td>
+      <td> the most specific rule, is the one to apply </td>
+    </tr>
+  </tbody>
+  </body>
+</html>
