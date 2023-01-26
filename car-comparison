@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="'en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Guia para elegir auto</title>
+        <style>
+             .hola {
+                background-color: black;
+                height: 50px;
+                color:white;
+                padding-top: 20px;
+                padding-left: 10px;
+            }
+
+            ul {
+                display:flex;
+                justify-content: flex-end;
+                
+                
+            }
+            li {
+                
+                list-style-type: none;
+                font-family: monospace;
+                margin-left:30px;
+                
+            }
+
+            li:hover {
+                border-bottom:solid 1px purple;
+                
+            }
+            
+            nav {
+                
+            }
+
+        
+            span {
+                display:flex;
+                margin-top:50px;
+                margin-right: 30px;
+                
+            }
+
+            .numero1 {
+                border-bottom: solid 1px purple;
+                
+            }
+
+            .marca {
+                margin-bottom: 30px;
+
+            }
+
+           
+            
+        </style>
+    </head>
+    <body>
+         <div class="hola">Gonzalo Flores</div>
+         <nav>
+            
+            <ul>
+                <li> Menu principal</li>
+                <li> <a href="#">Taller Mecanico de confianza</a></li>
+                <li>Auto precio calidad del momento</li>
+            </ul>
+        </nav>
+
+        <p class="numero1"> Al comprar un auto ten en cuenta tus posibilidades económicas, no olvides que un auto se <strong>devalúa</strong> con rapidez. <strong>Compra inteligentemente.</strong>
+        <p class="marca">
+        <label for="marcaFavorita"> Por favor, seleccione su marca predilecta:</label>
+        <select name="marcaFavorita" id="marcaFavorita">
+            <option value="">--Please select an option--</option>
+            <option value="Ford">Ford</option>
+            <option value="VolksWagen">VolksWagen</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Honda">Honda</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Kia">Kia</option>
+        </select>
+        </p>
+        <p>
+            <label for="segmento">Por favor, seleccione el segmento de interes</label>
+            <select name="segmento" id="segmento">
+                <option value="">--Please select an option--</option>
+                <option value="Sedan">Sedan</option>
+                <option value="Hatchback">Hatchback</option>
+                <option value="SUV's">SUV's</option>
+                <option value="Camionetas">Camionetas</option>
+            
+            </select>
+        </p>
+    
+
+    </body>
+</html>
