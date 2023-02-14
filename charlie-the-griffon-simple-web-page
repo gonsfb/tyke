@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lan="'en-US">
+<head>
+    <meta charset="'UTF-8">
+    <meta name="width" content="width=device-width">
+    <title>CharlsTG</title>
+    
+    <!--link or style opening and closing tag-->
+
+    <style>
+
+        .container {
+            border: 2px solid black;
+            border-radius: 10%;
+            inline-size: 30vw;
+            block-size: 20vh;
+            margin-inline-start: 35vw ;
+        }
+        
+        header {
+            
+            display:flex;
+            background-image: url('charlieyellow.jpeg');
+            background-size:contain;
+            background-repeat: no-repeat;
+            block-size: inherit;
+            background-position: center;
+            font-family: monospace;
+            color: black;
+            text-align: center;
+            
+           
+            
+        }
+        .charlesIntro {
+            writing-mode: vertical-rl;
+            color: black;
+            font-size:medium;
+            
+            
+        }
+
+        .charlesButtonBox {
+            text-align: center;
+            margin-block-start:1vw;
+        }
+
+        .charlesButton:hover {
+            background-color:background: rgb(69,222,237);
+background: linear-gradient(90deg, rgba(69,222,237,0.9220063025210083) 8%, rgba(29,253,145,0.9164040616246498) 76%);
+
+        }
+
+        .charlesDreamNarration {
+            color:black;
+            text-align: center;
+        }
+
+        .charlesStory {
+            color:black;
+            text-align: center;
+
+        }
+
+       
+
+    </style>
+ 
+</head>
+<body>
+    <div class="container">
+      <header> 
+        <strong class="charlesIntro">Charlie the Mighty Grifon </strong> <br>
+        <strong class="charlesIntro"> Charlie the Mighty Grifon</strong>
+      </header>
+    </div>
+    <div class="charlesButtonBox">
+        <button class="charlesButton"> Complete charlies dream </button>
+    </div>
+   
+    <p class="charlesDreamNarration">
+        Contaba charlie que un dia soñó lo que el futuro le deparaba...
+    </p>
+
+    <p class="charlesStory">
+
+    </p>
+
+  
+    
+        
+
+    
+    <script>
+        const complete = document.querySelector('.charlesButton')
+        const story = document.querySelector('.charlesStory')
+        
+        
+        const hRandom = ['Comprar una rosa a su amada y vivir en una casita con ventanita, no sin olvidar que los sueños, sueños son.', 'usar un suetercito amarillo y conocer un pequeño armadillo.', 'manejar una camioneta con batea y asiento en tela, en carretera vacia y aires de rumba.']
+
+        function Dream(){
+            i = Math.floor(Math.random() * hRandom.length);
+            if(story.textContent == ''){
+                story.textContent += hRandom[i];
+            } else {
+                story.textContent = ''
+
+            }}
+
+
+        
+        complete.addEventListener('click' , Dream)
+
+        
+        
+    
+
+
+    </script>
+</body>
+</html>
