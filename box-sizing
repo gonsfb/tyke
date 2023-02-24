@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="'width=viewport-width">
+        <title> CSS practice </title>
+        <style> 
+        .myBox {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+            display:flex;
+            block-size: 200px;
+            inline-size: 200px;
+            background-color: brown;
+            box-sizing: border-box;
+            border: 5px black solid ;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .myLittleBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            block-size: 150px;
+            inline-size: 150px; 
+            background-color: green;
+            box-sizing: border-box;
+            border: solid black 5px;
+        }
+
+        .myLittleBox2{
+            display: flex;
+            block-size: 100px;
+            inline-size: 100px;
+            background-color: gray;
+            box-sizing: border-box;
+            border: solid black 5px;
+            align-items: center;
+            text-align: center;
+            font-family: monospace;
+        
+        }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="myBox"> 
+            <div class="myLittleBox">
+                <div class="myLittleBox2">Charlie the Mighty Griffon</div>
+            </div>
+        </div>
+    </body>
+</html>
