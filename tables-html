@@ -22,6 +22,10 @@
         #head{
             text-align: center;
         }
+        
+        .year{
+            text-align: center;
+            font-size: 2rem;
     </style>
   </head>
   <body>
@@ -69,13 +73,12 @@
     </tbody>
     <tfoot>
        <tr>
-         <td colspan="6">
+         <td class='year' colspan="6">
             2023
          </td>
        </tr>
     </tfoot>
         
     </table>
-    <h2>Adding structure  with &<thead>; &<tfoot>; and &<tbody>;</h2>
   </body>
  </html>
